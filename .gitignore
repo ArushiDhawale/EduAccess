@@ -1,5 +1,12 @@
 venv/
+.venv/
 .env
+.env.*
+!.env.example
 .streamlit/secrets.toml
+*.pem
+*.key
+credentials.json
+secrets.json
 __pycache__/
 *.pyc

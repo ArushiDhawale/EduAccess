@@ -4,6 +4,7 @@ import tempfile
 from moviepy import VideoFileClip
 from faster_whisper import WhisperModel
 from utils.summarizer import generate_lecture_summary, simplify_content
+from isl_feature import render_isl_translator
 import streamlit.components.v1 as components
 
 st.set_page_config(
@@ -67,6 +68,7 @@ with st.sidebar:
             "Summary Generator",
             "Simplify Content",
             "Translation",
+            "Two-Way ISL Translator",
             "Indian Sign Language"
         ]
     )
@@ -248,6 +250,10 @@ elif page == "Translation":
     st.text_area(
         "Translated Output"
     )
+
+elif page == "Two-Way ISL Translator":
+
+    render_isl_translator()
 
 elif page == "Indian Sign Language":
 

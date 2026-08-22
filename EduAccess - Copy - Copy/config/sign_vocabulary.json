@@ -1,0 +1,12 @@
+{
+  "HELLO": {"display_name": "Hello", "gloss": "HELLO", "aliases": ["hi", "hey"], "video": "assets/signs/hello.mp4"},
+  "PLEASE": {"display_name": "Please", "gloss": "PLEASE", "aliases": ["kindly", "request"], "video": "assets/signs/please.mp4"},
+  "GOOD_MORNING": {"display_name": "Good Morning", "gloss": "GOOD_MORNING", "aliases": ["morning"], "video": "assets/signs/good_morning.mp4"},
+  "NO": {"display_name": "No", "gloss": "NO", "aliases": ["nope", "nay"], "video": "assets/signs/no.mp4"},
+  "YES": {"display_name": "Yes", "gloss": "YES", "aliases": ["yeah", "yep"], "video": "assets/signs/yes.mp4"},
+  "SORRY": {"display_name": "Sorry", "gloss": "SORRY", "aliases": ["apologies", "apologize"], "video": "assets/signs/sorry.mp4"},
+  "THANK_YOU": {"display_name": "Thank You", "gloss": "THANK_YOU", "aliases": ["thankyou", "thanks"], "video": "assets/signs/thank_you.mp4"},
+  "HELP": {"display_name": "Help", "gloss": "HELP", "aliases": ["assist", "aid"], "video": "assets/signs/help.mp4"},
+  "WHO": {"display_name": "Who", "gloss": "WHO", "aliases": ["person"], "video": "assets/signs/who.mp4"},
+  "WHAT": {"display_name": "What", "gloss": "WHAT", "aliases": ["query_what"], "video": "assets/signs/what.mp4"}
+}
